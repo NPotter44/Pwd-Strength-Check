@@ -16,10 +16,11 @@
                     <img src="c:\Users\Potte\OneDrive\Desktop\PwdCheck\Githhubpwd\pwd1.png">
                 </ul>
             </li>
+            
             <li><strong>Defining Functions:</strong>
                 <ul>
                     <li><code>check_pwd()</code>: Function to check password strength.</li>
-                    <img src= "c:\Users\Potte\OneDrive\Desktop\PwdCheck\Githhubpwd\pwd2.png">
+                    
                 </ul>
             
             <li><strong>Statements:</strong>      
@@ -47,7 +48,7 @@
                         <li>LINE 20 - <code>else:</code>: This block is executed if none of the previous conditions are true, meaning the character is neither a lowercase letter, nor an uppercase letter, nor a digit, nor a whitespace character.
                             In this case, it increments the special_count variable by 1, indicating the presence of a special character (anything that is not a letter, digit, or whitespace) in the password.
                             </li>
-                    <img src="c:\Users\Potte\OneDrive\Desktop\PwdCheck\Githhubpwd\pwd3.png">    
+                       
                     
                     <li>These next statements are used to check different conditions based on the length of the password (password_length) and provide corresponding remarks.
                     </li>
@@ -66,7 +67,7 @@
                         This block is executed if none of the previous conditions are true, meaning the length of the password is between 6 and 12 characters (inclusive).
                         In this case, it increments the strength variable by 1, indicating that the password meets the minimum length requirement and is considered to have some strength.
                         </li>    
-                    <img src="c:\Users\Potte\OneDrive\Desktop\PwdCheck\Githhubpwd\pwd4.png">
+                    
 
                     <li>Next if any of these conditions are true, it indicates that the password contains at least one character of that type, 
                     so the strength of the password (strength) is increased by 1.</li>
@@ -96,7 +97,7 @@
                         If true, it increments the strength variable by 1, indicating that the password contains at least one special character.
                         </li>
                    
-                     <img src="c:\Users\Potte\OneDrive\Desktop\PwdCheck\Githhubpwd\pwd5.png">        
+                           
                 
                     <li>These statements are used to provide remarks about the strength of the password based on the value of the strength variable.
                     </li>
@@ -125,7 +126,7 @@
                         Checks if the strength of the password is 5.
                         If true, it adds a remark to the remarks variable indicating that the password is very strong.
                         </li>
-                    <img src="c:\Users\Potte\OneDrive\Desktop\PwdCheck\Githhubpwd\pwd6.png">
+                    
                 
                     <li><code>print()</code> Function:
                         The print() function is used to display messages or output to the console.
@@ -134,7 +135,7 @@
                         <li>Overall, these print() statements provide detailed information about the composition of the password, including the counts of lowercase,
                             uppercase, numeric, whitespace, and special characters. This feedback helps the user understand the characteristics of their password.
                         </li> 
-                    <img src="c:\Users\Potte\OneDrive\Desktop\PwdCheck\Githhubpwd\pwd7.png"> 
+                    
                     
                         <li>LINE 62 - Function Definition:<code>def ask_pwd(another_pwd=False):</code>: Function to ask user if they want to check or change their password.
                         </li>
@@ -159,7 +160,7 @@
                         <li>Prints a message indicating that the input is invalid and prompts the user to try again.
                         Overall, this function prompts the user to choose whether they want to check their password or change it. It ensures that the user provides a valid input ('y' or 'n') and returns True if the user wants to proceed and False if they do not.
                         </li>
-                    <img src="c:\Users\Potte\OneDrive\Desktop\PwdCheck\Githhubpwd\pwd8.png">
+                    
                 </ul>
             </li>
             <li><strong>Main Execution:</strong>
@@ -172,7 +173,7 @@
                             <li><code>check_pwd()</code>: Calls function to check password.</li>
                             <li><code>ask_pw = ask_pwd(True)</code>: Calls function to ask if user wants to change password.</li>
                         </ul>
-                    <img src="c:\Users\Potte\OneDrive\Desktop\PwdCheck\Githhubpwd\pwd9.png">
+                   
                     </li>
                 </ul>
             </li>
