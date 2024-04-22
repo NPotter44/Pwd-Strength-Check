@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
-<body>
+<body> 
     <div class="container">
         <h1>Password Checker Explanation</h1>
         <p>Here's the breakdown of the Python code for the password checker:</p>
@@ -14,11 +14,26 @@
                     <li><code>string</code>: Contains string constants.</li>
                     <li><code>getpass</code>: Provides secure password input. Password will not be visable while typing it.</li>
                  </ul>
-                </li>
+                <img src="PwdCheckImages/pwd1.png">
+           </li>
             <li><strong>Defining Functions:</strong>
                 <ul>
                     <li><code>check_pwd()</code>: Function to check password strength.</li>
-                </ul>
+                <li><code>def check_pwd():</code>: This line defines a function named check_pwd. it will be responsible for checking the strength of a password.
+                        </li>
+                <li><code>password = getpass.getpass("Enter Password: "):</code> This line prompts the user to enter a password using the getpass.getpass() function. This function is used to securely input passwords,                 as it does not display the characters as they are typed. The entered password is stored in the variable password.
+                        </li>
+                    <li><code>strength = 0</code>: This line initializes a variable named strength to 0. This variable will be used to represent the strength of the password.
+                        </li>
+                    <li><code>remarks = ''</code>: This line initializes a variable named remarks to an empty string. This variable will be used to store any remarks or feedback about the password, such as whether it                         meets certain  criteria or not.
+                        </li>
+                    <li> <code>lower_count = upper_count = num_count = wspace_count = special_count = 0</code>: This line initializes multiple variables (lower_count, upper_count, num_count, wspace_count,                                         special_count) to 0   using a single line. These variables will be used to count the occurrences of different 
+                        types of characters (lowercase letters, uppercase letters, digits, whitespace characters, special characters) in the password.
+                        </li>
+                    <li><code>password_length = len(password):</code>This line calculates the length of the password (number of characters) using the len() function and assigns it to the variable password_length.
+                         </li>
+                    <img src="PwdCheckImages/pwd2.png">
+            </ul>
             </li> 
             <li><strong>Statements:</strong>      
                 <ul>
@@ -41,7 +56,8 @@
                              digit, nor a whitespace character.
                             In this case, it increments the special_count variable by 1, indicating the presence of a special character (anything that is not a letter, digit, or whitespace) in the password.
                             </li>
-                       <li>These next statements are used to check different conditions based on the length of the password (password_length) and provide corresponding remarks.
+                       <img src="PwdCheckImages/pwd3.png">
+                    <li>These next statements are used to check different conditions based on the length of the password (password_length) and provide corresponding remarks.
                     </li>
                         <li>LINE 23<code>if password_length &gt; 6:</code> 
                         Checks if the length of the password is less than 6 characters.
@@ -55,6 +71,7 @@
                         This block is executed if none of the previous conditions are true, meaning the length of the password is between 6 and 12 characters (inclusive).
                         In this case, it increments the strength variable by 1, indicating that the password meets the minimum length requirement and is considered to have some strength.
                         </li>    
+                        <img src="PwdCheckImages/pwd4.png">
                         <li>Next if any of these conditions are true, it indicates that the password contains at least one character of that type, 
                         so the strength of the password (strength) is increased by 1.
                         </li>
@@ -78,7 +95,8 @@
                         Checks if the count of special characters (special_count) is greater than or equal to 1.
                         If true, it increments the strength variable by 1, indicating that the password contains at least one special character.
                         </li>
-                       <li>These statements are used to provide remarks about the strength of the password based on the value of the strength variable.
+                      <img src= "PwdCheckImages/pwd5.png">
+                    <li>These statements are used to provide remarks about the strength of the password based on the value of the strength variable.
                        </li>
                        <li>LINE 41<code>if strength == 1:</code>:
                         Checks if the strength of the password is 1.
@@ -100,12 +118,14 @@
                         Checks if the strength of the password is 5.
                         If true, it adds a remark to the remarks variable indicating that the password is very strong.
                         </li>
+                        <img src="PwdCheckImages/pwd6.png">
                         <li><code>print()</code> Function:
                         The print() function is used to display messages or output to the console.
                         </li>
                         <li>Overall, these print() statements provide detailed information about the composition of the password, including the counts of lowercase,
                             uppercase, numeric, whitespace, and special characters. This feedback helps the user understand the characteristics of their password.
                         </li> 
+                       <img src="PwdCheckImages/pwd7.png">
                         <li>LINE 62 - Function Definition:<code>def ask_pwd(another_pwd=False):</code>: Function to ask user if they want to check or change their password.
                         </li>
                         <li>LINE 63 - Variable Initialization:<code>valid = False</code>: Initializes a variable valid to False. This variable is used to control the validation loop.
@@ -127,6 +147,7 @@
                         <li>Prints a message indicating that the input is invalid and prompts the user to try again.
                         Overall, this function prompts the user to choose whether they want to check their password or change it. It ensures that the user provides a valid input ('y' or 'n') and returns True if the 
                         user wants to proceed and False if they do not.
+                       <img src="PwdCheckImages/pwd8.png">
                         </li>
                     </ul>
             </li>
@@ -139,6 +160,7 @@
                         <ul>
                             <li><code>check_pwd()</code>: Calls function to check password.</li>
                             <li><code>ask_pw = ask_pwd(True)</code>: Calls function to ask if user wants to change password.</li>
+                        <img src="PwdCheckImages/pwd9.png">
                         </ul>
                    </li>
                 </ul>
