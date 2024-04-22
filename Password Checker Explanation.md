@@ -165,7 +165,22 @@
                    </li>
                 </ul>
             </li>
-           <h1> Executing the code </h1>
+           <h1> Run the code </h1>
+        <li> To run the code open powershell then type "python .\checkit.py" as shown in the picture. You will then be greeted by a welcome message and asked if you want to check your password. Type "y" for yes to                     continue.
+             </li>
+            <img src="PwdCheckImages/Demo1.png">
+       <li> Next it will ask you to "Enter Password:" Remember any characters typed in this field will not show up on the screen for a more secure input. For this demonstration the password is "apple" in all lowercase.              After entering the password it will show you how many of the different characters you have in your password and grade it on a scale of 1 to 5. This password is very weak and my password needs to have at                 least 6 characters. You will be asked "Do you want to change your password?" again type "y" for yes in this field.
+           </li>
+            <img src="PwdCheckImages/Demo2.png">
+        <li> I will type in a new password this time "apple1" and view the output. With one number the password is now "Good" and meets the 6 character minimum.
+             </li>
+            <img src="PwdCheckImages/Demo3.png">
+        <li> I will repeat the steps again but this time the password will be "Apple&%". The password is now "Strong" and meets the 6 character minimum.
+            </li>
+            <img src="PwdCheckImages/Demo4.png">
+        <li> Repeating the same steps again the password this time will be "I like Apples42&%". The password is now "Very Strong" and has more than 12 characters.
+            </li>
+            <img src="PwdCheckImages/Demo5.png">
         </ol>
         <p></p>
     </div>
