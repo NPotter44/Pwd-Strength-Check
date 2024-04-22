@@ -32,6 +32,7 @@
                         </li>
                     <li><code>password_length = len(password):</code>This line calculates the length of the password (number of characters) using the len() function and assigns it to the variable password_length.
                          </li>
+                    <img src="PwdCheckImages/pwd2.png">
             </ul>
             </li> 
             <li><strong>Statements:</strong>      
@@ -55,7 +56,8 @@
                              digit, nor a whitespace character.
                             In this case, it increments the special_count variable by 1, indicating the presence of a special character (anything that is not a letter, digit, or whitespace) in the password.
                             </li>
-                       <li>These next statements are used to check different conditions based on the length of the password (password_length) and provide corresponding remarks.
+                       <img src="PwdCheckImages/pwd3.png">
+                    <li>These next statements are used to check different conditions based on the length of the password (password_length) and provide corresponding remarks.
                     </li>
                         <li>LINE 23<code>if password_length &gt; 6:</code> 
                         Checks if the length of the password is less than 6 characters.
@@ -69,6 +71,7 @@
                         This block is executed if none of the previous conditions are true, meaning the length of the password is between 6 and 12 characters (inclusive).
                         In this case, it increments the strength variable by 1, indicating that the password meets the minimum length requirement and is considered to have some strength.
                         </li>    
+                        <img src="PwdCheckImages/pwd4.png">
                         <li>Next if any of these conditions are true, it indicates that the password contains at least one character of that type, 
                         so the strength of the password (strength) is increased by 1.
                         </li>
