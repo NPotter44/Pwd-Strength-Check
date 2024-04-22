@@ -14,8 +14,9 @@
                     <li><code>string</code>: Contains string constants.</li>
                     <li><code>getpass</code>: Provides secure password input. Password will not be visable while typing it.</li>
                  </ul>
-           ![Image](https://github.com/NPotter44/Pwd-Strength-Check/assets/144384452/2ae5d2fd-5608-449a-bc81-d91432f2310f)
-            </li>
+                    #Image 1
+                ![Image](https://github.com/NPotter44/Pwd-Strength-Check/assets/144384452/2ae5d2fd-5608-449a-bc81-d91432f2310f)
+                </li>
             <li><strong>Defining Functions:</strong>
                 <ul>
                     <li><code>check_pwd()</code>: Function to check password strength.</li>
