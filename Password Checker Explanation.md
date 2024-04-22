@@ -14,7 +14,9 @@
                     <li><code>string</code>: Contains string constants.</li>
                     <li><code>getpass</code>: Provides secure password input. Password will not be visable while typing it.</li>
                  </ul>
-               ![](PwdCheckImages/pwd1.png)
+              
+                ![](PwdCheckImages/pwd1.png)
+            
             </li>
             <li><strong>Defining Functions:</strong>
                 <ul>
