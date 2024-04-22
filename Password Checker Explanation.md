@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
-<body>
+<body> 
     <div class="container">
         <h1>Password Checker Explanation</h1>
         <p>Here's the breakdown of the Python code for the password checker:</p>
@@ -14,7 +14,8 @@
                     <li><code>string</code>: Contains string constants.</li>
                     <li><code>getpass</code>: Provides secure password input. Password will not be visable while typing it.</li>
                  </ul>
-            </li>
+                <img src="PwdCheckImages/pwd1.png"
+           </li>
             <li><strong>Defining Functions:</strong>
                 <ul>
                     <li><code>check_pwd()</code>: Function to check password strength.</li>
