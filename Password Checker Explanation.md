@@ -15,7 +15,6 @@
                     <li><code>getpass</code>: Provides secure password input. Password will not be visable while typing it.</li>
                  </ul>
             </li>
-          ![Img1](https://drive.google.com/file/d/1_JM8uF14sZTLmGLIPK1l6hJzfsiLc32O/view?usp=drive_link)
             <li><strong>Defining Functions:</strong>
                 <ul>
                     <li><code>check_pwd()</code>: Function to check password strength.</li>
