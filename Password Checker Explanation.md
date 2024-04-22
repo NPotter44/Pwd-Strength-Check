@@ -14,12 +14,25 @@
                     <li><code>string</code>: Contains string constants.</li>
                     <li><code>getpass</code>: Provides secure password input. Password will not be visable while typing it.</li>
                  </ul>
-                <img src="PwdCheckImages/pwd1.png"
+                <img src="PwdCheckImages/pwd1.png">
            </li>
             <li><strong>Defining Functions:</strong>
                 <ul>
                     <li><code>check_pwd()</code>: Function to check password strength.</li>
-                </ul>
+                <li><code>def check_pwd():</code>: This line defines a function named check_pwd. it will be responsible for checking the strength of a password.
+                        </li>
+                <li><code>password = getpass.getpass("Enter Password: "):</code> This line prompts the user to enter a password using the getpass.getpass() function. This function is used to securely input passwords,                 as it does not display the characters as they are typed. The entered password is stored in the variable password.
+                        </li>
+                    <li><code>strength = 0</code>: This line initializes a variable named strength to 0. This variable will be used to represent the strength of the password.
+                        </li>
+                    <li><code>remarks = ''</code>: This line initializes a variable named remarks to an empty string. This variable will be used to store any remarks or feedback about the password, such as whether it                         meets certain  criteria or not.
+                        </li>
+                    <li> <code>lower_count = upper_count = num_count = wspace_count = special_count = 0</code>: This line initializes multiple variables (lower_count, upper_count, num_count, wspace_count,                                         special_count) to 0   using a single line. These variables will be used to count the occurrences of different 
+                        types of characters (lowercase letters, uppercase letters, digits, whitespace characters, special characters) in the password.
+                        </li>
+                    <li><code>password_length = len(password):</code>This line calculates the length of the password (number of characters) using the len() function and assigns it to the variable password_length.
+                         </li>
+            </ul>
             </li> 
             <li><strong>Statements:</strong>      
                 <ul>
