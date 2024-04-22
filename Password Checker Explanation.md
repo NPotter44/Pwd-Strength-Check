@@ -15,6 +15,7 @@
                     <li><code>getpass</code>: Provides secure password input. Password will not be visable while typing it.</li>
                  </ul>
             </li>
+           ![pwd1](https://github.com/NPotter44/Pwd-Strength-Check/assets/144384452/abbab2db-62f2-47aa-acfa-d14e147de425)
             <li><strong>Defining Functions:</strong>
                 <ul>
                     <li><code>check_pwd()</code>: Function to check password strength.</li>
